@@ -1,27 +1,30 @@
-# Globax Editor App
+# Globax
 
-This is a desktop app for editing files. It has a lovely GUI (Graphical User Interface) that makes it easy to use, even if you're not a command line wizard.
+Globax is a package manager for Python that allows you to easily manage your dependencies using the PYPI registry. With Globax, you can ensure that your Python projects are always up-to-date with the latest and greatest packages available on the PYPI registry.
 
 ## Installation
 
-To install this app, simply download the installer from the [releases page](https://github.com/TypeACodes/globax/releases) and run it. Follow the prompts and you'll be up and running in no time.
-
+1. Install Globax by running the following command:
+```
+pip install globax
+```
+2.Make sure your location good registry to install
 ## Usage
 
-Once the app is installed, you can open it from your applications menu or desktop shortcut. You'll be greeted with a beautiful interface that lets you edit your Globax files with ease.
+To use Globax, simply run the `globax install` command followed by the name of the package you want to install. For example, to install the `requests` package, you would run:
+```
+globax install requests
+```
+Globax will automatically download and install the package from the PYPI registry, along with any dependencies required by the package.
 
-## Features
-
-- Syntax highlighting for easy reading and editing
-- Code completion to save you time and typos
-- Error highlighting to quickly identify and fix issues
-- Easy file management with a built-in file explorer
-- Multiple tabs for editing multiple files at once
-- And more!
-
+To uninstall a package, simply run the `globax uninstall` command followed by the name of the package you want to uninstall. For example, to uninstall the `requests` package, you would run:
+```
+globax uninstall requests
+```
 ## Contributing
 
-If you want to contribute to this app, head over to Globax Community [GitHub repository](https://github.com/globax/community) and submit a Pull Request. We're always looking for ways to improve the app and make it even more awesome.
-
+We welcome contributions to Globax! If you have an idea for a new feature, or if you find a bug that needs fixing, feel free to submit a pull request on our GitHub repository or Globax Commandline: `globax-support`
 ## License
-This app is licensed under the MIT License. See the [LICENSE](https://github.com/TypeACodes/globax/blob/main/LICENSE) file for more details.
+
+Globax is licensed under the MIT License. See the LICENSE file for more details.
+Ask me anything...
